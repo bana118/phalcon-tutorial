@@ -1,0 +1,9 @@
+{
+    "name": "phalcon-tutorial",
+    "forwardPorts": [80],
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "pip install -r requirements.txt",
+}
