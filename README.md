@@ -1,5 +1,5 @@
 # phalcon-tutorial
-/usr/local/etc/php/php.ini-development
+PHPフレームワーク[Phalcon](https://docs.phalcon.io/)のチュートリアル
 
 # How to get started
 /etc/apache2/apache2.confの以下の2箇所を編集
