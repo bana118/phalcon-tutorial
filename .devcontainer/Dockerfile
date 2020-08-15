@@ -40,6 +40,8 @@ RUN apt update \
     && echo "extension=phalcon.so" >> /etc/php/7.2/cli/php.ini \
     && echo "extension=psr.so" >> /etc/php/7.2/apache2/php.ini \
     && echo "extension=phalcon.so" >> /etc/php/7.2/apache2/php.ini \
+    && echo "extension=psr.so" >> /etc/php/7.2/fpm/php.ini \
+    && echo "extension=phalcon.so" >> /etc/php/7.2/fpm/php.ini \
     && pecl channel-update pecl.php.net \
     && pecl install phalcon \
     # && curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | bash \
