@@ -21,6 +21,8 @@ RUN apt update \
     apache2 \
     nginx \
     zip \
+    mysql-server \
+    mysql-client \
     php \
     php-zip \
     php-xml \
