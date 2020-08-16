@@ -11,6 +11,7 @@ CMD echo "now running..."
 RUN apt update \
     && apt install -y --no-install-recommends \
     apt-utils \
+    less \
     curl \
     git \
     gcc \
