@@ -44,8 +44,6 @@ RUN apt update \
     && echo "extension=phalcon.so" >> /etc/php/7.2/fpm/php.ini \
     && pecl channel-update pecl.php.net \
     && pecl install phalcon \
-    # && curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | bash \
-    # && apt install -y --no-install-recommends php7.2-phalcon \
     && composer global require phalcon/devtools \
     && apt autoremove -y \
     && apt clean -y \
