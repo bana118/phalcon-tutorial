@@ -1,8 +1,11 @@
 {
     "name": "phalcon-tutorial",
-    "forwardPorts": [80],
+    "forwardPorts": [80, 8000],
     "dockerFile": "Dockerfile",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
-    }
+    },
+    "extensions": [
+        "bmewburn.vscode-intelephense-client"
+    ]
 }

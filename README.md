@@ -2,6 +2,16 @@
 PHPフレームワーク[Phalcon](https://docs.phalcon.io/)のチュートリアル
 
 # How to get started
+Phalcon developer toolを使って開発用サーバーを起動
+
+```
+cd tutorial
+phalcon serve
+```
+
+http://localhost:8000 にアクセス
+
+# How to get started with apache
 /etc/apache2/apache2.confの以下の2箇所を編集
 
 ```
@@ -33,6 +43,5 @@ a2enmod rewrite
 service apache2 restart
 ```
 
-http://localhost にアクセスすると以下のように表示される
+http://localhost にアクセス
 
-![phalcon](https://user-images.githubusercontent.com/43720583/90316256-f72a8b80-df5b-11ea-89a7-64f8f93ff7a6.png)
