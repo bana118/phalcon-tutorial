@@ -48,7 +48,7 @@ $container->set(
             [
                 'host'     => 'localhost',
                 'username' => 'root',
-                'password' => '25013404',
+                'password' => 'secret',
                 'dbname'   => 'tutorial',
             ]
         );
