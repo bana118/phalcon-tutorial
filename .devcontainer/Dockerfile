@@ -49,4 +49,4 @@ RUN apt update \
     && apt clean -y \
     && rm -rf /var/lib/apt/lists/*
 
-ENV PATH $PATH:$HOME/.composer/vendor/bin
+ENV PATH $PATH:/root/.composer/vendor/bin
