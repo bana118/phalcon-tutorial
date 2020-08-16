@@ -13,7 +13,7 @@ PHPフレームワーク[Phalcon](https://docs.phalcon.io/)のチュートリア
 ```
 
 ```
-<Directory /workspace/phalcon-tutorial/store> # /var/www -> /workspace/phalcon-tutorial
+<Directory /workspaces/phalcon-tutorial/store> # /var/www -> /workspace/phalcon-tutorial
     Options FollowSymLinks
     AllowOverride All # None -> All
     Require all granted
@@ -23,14 +23,14 @@ PHPフレームワーク[Phalcon](https://docs.phalcon.io/)のチュートリア
 /etc/apache2/sites-available/000-default.conf を編集
 
 ```
-Documentroot /workspace/phalcon-tutorial/store # /var/www/html -> workspace/phalcon-tutorial/store
+Documentroot /workspaces/phalcon-tutorial/store # /var/www/html -> /workspaces/phalcon-tutorial/tutorial
 ```
 
 以下のコマンドを実行
 
 ```
 a2enmod rewrite
-apache2 service restart
+service apache2 restart
 ```
 
 http://localhost にアクセスすると以下のように表示される
